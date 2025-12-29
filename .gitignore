@@ -1,0 +1,22 @@
+# 忽略大型模型文件
+checkpoints/
+*.pt
+
+# 忽略数据文件
+*.pkl
+*.jsonl
+
+# 忽略缓存目录
+.cache/
+__pycache__/
+
+# 忽略日志文件
+*.log
+
+# 忽略其他临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
